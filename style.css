@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+img{
+    width: 350px;
+    height: 220px;
+    position: absolute;
+    left: 38%;
+    top: 100px;
+}
+
+#result{
+    background-color: #FFFFFF;
+    position: relative;
+    top: 350px;
+    left: 48%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 12px;
+}
+
+section{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input-number{
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: 20px;
+    position: relative;
+    right:148px;
+    top: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+}
+
+.input-number::placeholder{
+    color:#FFFFFF ;
+    font-size: 20px;
+}
+
+.input-number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+button{
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    top:120px;
+    right: 465px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.4;
+}
